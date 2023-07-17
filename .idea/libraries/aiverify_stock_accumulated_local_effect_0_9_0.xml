@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aiverify.stock.accumulated_local_effect-0.9.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/stock-plugins/aiverify.stock.accumulated-local-effect/dist/aiverify.stock.accumulated_local_effect-0.9.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

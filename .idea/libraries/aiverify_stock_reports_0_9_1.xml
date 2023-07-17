@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aiverify.stock.reports-0.9.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/stock-plugins/aiverify.stock.reports/dist/aiverify.stock.reports-0.9.1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
