@@ -203,20 +203,6 @@ jobs:
 #          ref: main
 #          path: qa-test/backend-testing
 
-      - name: Run frontend tests
-        if: ${{ ! cancelled() }}
-        run: |
-          cd qa-test/frontend-testing
-          npm install
-          npx playwright install
-          npx playwright test
-
-      - name: Run backend tests
-        if: ${{ ! cancelled() }}
-        run: |
-          cd qa-test/backend-testing
-          npm install
-          BASEDIR=/home/runner/work/mock-aiverify-2/mock-aiverify-2 npx playwright test
 
       - name: Run smoke tests
         if: ${{ ! cancelled() }}
@@ -226,6 +212,20 @@ jobs:
           npx playwright install
           #mv /root/.cache/ms-playwright /home/runner/.cache
           npx playwright test
+
+      - name: Run frontend tests
+        if: ${{ ! cancelled() }}
+        run: |
+          cd qa-test/frontend-testing
+          npm install
+          npx playwright test
+
+      - name: Run backend tests
+        if: ${{ ! cancelled() }}
+        run: |
+          cd qa-test/backend-testing
+          npm install
+          BASEDIR=/home/runner/work/mock-aiverify-2/mock-aiverify-2 npx playwright test
 
       - name: Show logs (post-tests)
         if: ${{ ! cancelled() }}
