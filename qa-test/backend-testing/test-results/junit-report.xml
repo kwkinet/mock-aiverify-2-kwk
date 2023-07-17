@@ -1,0 +1,53 @@
+<testsuites id="" name="" tests="9" failures="1" skipped="2" errors="0" time="0.419355000000447">
+<testsuite name="redis.spec.js" timestamp="1685542893531" hostname="" tests="9" failures="1" skipped="2" time="0.042" errors="0">
+<testcase name="Test Engine Task Test Engine Task with Valid Inputs (Upload)" classname="[chromium] › redis.spec.js › Test Engine Task › Test Engine Task with Valid Inputs (Upload)" time="0.02">
+</testcase>
+<testcase name="Test Engine Task Invalid Data File (Upload)" classname="[chromium] › redis.spec.js › Test Engine Task › Invalid Data File (Upload)" time="0.003">
+</testcase>
+<testcase name="Test Engine Task Invalid Model File (Upload)" classname="[chromium] › redis.spec.js › Test Engine Task › Invalid Model File (Upload)" time="0.003">
+</testcase>
+<testcase name="Test Engine Task Invalid Input Schema (Upload)" classname="[chromium] › redis.spec.js › Test Engine Task › Invalid Input Schema (Upload)" time="0.003">
+</testcase>
+<testcase name="Test Engine Task Invalid Algorithm ID (Upload)" classname="[chromium] › redis.spec.js › Test Engine Task › Invalid Algorithm ID (Upload)" time="0.003">
+</testcase>
+<testcase name="Test Engine Service Validate Dataset" classname="[chromium] › redis.spec.js › Test Engine Service › Validate Dataset" time="0.004">
+</testcase>
+<testcase name="Test Engine Service Invalid Dataset" classname="[chromium] › redis.spec.js › Test Engine Service › Invalid Dataset" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Test Engine Service Validate Model" classname="[chromium] › redis.spec.js › Test Engine Service › Validate Model" time="0.006">
+<failure message="redis.spec.js:288:5 Validate Model" type="FAILURE">
+<![CDATA[  [chromium] › redis.spec.js:288:5 › Test Engine Service › Validate Model ==========================
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "valid"
+    Received: undefined
+
+      312 |         
+      313 |         // Assert Response
+    > 314 |         expect(serviceResponse.validationResult).toBe('valid')
+          |                                                  ^
+      315 |
+      316 |         // Close API Connection
+      317 |         await client.close()
+
+        at /home/benflop/GitHub/backend-testing/tests/redis.spec.js:314:50
+]]>
+</failure>
+</testcase>
+<testcase name="Test Engine Service Invalid Model" classname="[chromium] › redis.spec.js › Test Engine Service › Invalid Model" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

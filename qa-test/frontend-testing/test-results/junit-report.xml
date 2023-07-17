@@ -1,0 +1,311 @@
+<testsuites id="" name="" tests="113" failures="1" skipped="9" errors="0" time="5.829738999992609">
+<testsuite name="api-endpoint/api.spec.js" timestamp="1685699740126" hostname="" tests="25" failures="0" skipped="2" time="5.19" errors="0">
+<testcase name="Get Report Get Non-Generated Report with Valid Project ID" classname="[chromium] › api-endpoint/api.spec.js › Get Report › Get Non-Generated Report with Valid Project ID" time="0.012">
+</testcase>
+<testcase name="Get Report Get Generated Report with Valid Project ID" classname="[chromium] › api-endpoint/api.spec.js › Get Report › Get Generated Report with Valid Project ID" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Get Report Get Generated Report with Invalid Project ID" classname="[chromium] › api-endpoint/api.spec.js › Get Report › Get Generated Report with Invalid Project ID" time="0.011">
+</testcase>
+<testcase name="Get Report Get Generated Report with Empty Project ID" classname="[chromium] › api-endpoint/api.spec.js › Get Report › Get Generated Report with Empty Project ID" time="0.015">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Valid Inputs" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Valid Inputs" time="0.028">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Invalid Template ID" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Invalid Template ID" time="0.054">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Empty Template ID" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Empty Template ID" time="0.017">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Invalid Plugin GID" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Invalid Plugin GID" time="0.047">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Empty Plugin GID" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Empty Plugin GID" time="0.014">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Invalid Template CID" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Invalid Template CID" time="0.331">
+</testcase>
+<testcase name="Export As Plugin Export As Plugin with Empty Template CID" classname="[chromium] › api-endpoint/api.spec.js › Export As Plugin › Export As Plugin with Empty Template CID" time="0.012">
+</testcase>
+<testcase name="Upload Dataset Upload Dataset with Valid Dataset" classname="[chromium] › api-endpoint/api.spec.js › Upload Dataset › Upload Dataset with Valid Dataset" time="0.295">
+</testcase>
+<testcase name="Upload Dataset Upload Dataset with Invalid Dataset" classname="[chromium] › api-endpoint/api.spec.js › Upload Dataset › Upload Dataset with Invalid Dataset" time="1.079">
+</testcase>
+<testcase name="Upload Dataset Upload Dataset with Empty Dataset" classname="[chromium] › api-endpoint/api.spec.js › Upload Dataset › Upload Dataset with Empty Dataset" time="0.006">
+</testcase>
+<testcase name="Upload Dataset Upload Unsupported File Format Dataset" classname="[chromium] › api-endpoint/api.spec.js › Upload Dataset › Upload Unsupported File Format Dataset" time="1.025">
+</testcase>
+<testcase name="Upload Model Upload Model with Valid Model" classname="[chromium] › api-endpoint/api.spec.js › Upload Model › Upload Model with Valid Model" time="0.041">
+</testcase>
+<testcase name="Upload Model Upload Model with Invalid Model" classname="[chromium] › api-endpoint/api.spec.js › Upload Model › Upload Model with Invalid Model" time="1.033">
+</testcase>
+<testcase name="Upload Model Upload Model with Empty Model" classname="[chromium] › api-endpoint/api.spec.js › Upload Model › Upload Model with Empty Model" time="0.004">
+</testcase>
+<testcase name="Upload Model Upload Model Unsupported File Format Model" classname="[chromium] › api-endpoint/api.spec.js › Upload Model › Upload Model Unsupported File Format Model" time="1.035">
+</testcase>
+<testcase name="List Plugins List All Plugins" classname="[chromium] › api-endpoint/api.spec.js › List Plugins › List All Plugins" time="0.043">
+</testcase>
+<testcase name="Upload Plugins Upload Plugins" classname="[chromium] › api-endpoint/api.spec.js › Upload Plugins › Upload Plugins" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Upload Plugins Upload Invalid File" classname="[chromium] › api-endpoint/api.spec.js › Upload Plugins › Upload Invalid File" time="0.004">
+</testcase>
+<testcase name="Upload Plugins Corrupted Plugin Meta JSON File" classname="[chromium] › api-endpoint/api.spec.js › Upload Plugins › Corrupted Plugin Meta JSON File" time="0.007">
+</testcase>
+<testcase name="Delete Plugin Delete Plugin by Plugin GID" classname="[chromium] › api-endpoint/api.spec.js › Delete Plugin › Delete Plugin by Plugin GID" time="0.074">
+</testcase>
+<testcase name="Delete Plugin Delete Plugin with Non-existing Plugin GID" classname="[chromium] › api-endpoint/api.spec.js › Delete Plugin › Delete Plugin with Non-existing Plugin GID" time="0.003">
+</testcase>
+</testsuite>
+<testsuite name="graphql/project/mutations.spec.js" timestamp="1685699740126" hostname="" tests="53" failures="0" skipped="6" time="2.294" errors="0">
+<testcase name="Create Project Create Project with Valid Inputs" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Valid Inputs" time="0.079">
+</testcase>
+<testcase name="Create Project Create Project with Invalid Project Information" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Invalid Project Information" time="0.054">
+</testcase>
+<testcase name="Create Project Create Project with Empty Project Information" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Empty Project Information" time="0.04">
+</testcase>
+<testcase name="Create Project Create Project with Invalid Global Variables" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Invalid Global Variables" time="0.056">
+</testcase>
+<testcase name="Create Project Create Project with Empty Global Variables" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Empty Global Variables" time="0.038">
+</testcase>
+<testcase name="Create Project Create Project with Invalid Pages" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Invalid Pages" time="0.064">
+</testcase>
+<testcase name="Create Project Create Project with Empty Pages" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Empty Pages" time="0.052">
+</testcase>
+<testcase name="Create Project Create Project with Malformed Input Block Data" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Malformed Input Block Data" time="0.001">
+</testcase>
+<testcase name="Create Project Create Project with Invalid Model &amp; Datasets Input" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Invalid Model &amp; Datasets Input" time="0.028">
+</testcase>
+<testcase name="Create Project Create Project with Empty Model &amp; Datasets Input" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Empty Model &amp; Datasets Input" time="0.012">
+</testcase>
+<testcase name="Create Project Create Project with Invalid Test Information Input Data" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Invalid Test Information Input Data" time="0.021">
+</testcase>
+<testcase name="Create Project Create Project with Empty Test Information Input Data" classname="[chromium] › graphql/project/mutations.spec.js › Create Project › Create Project with Empty Test Information Input Data" time="0.01">
+</testcase>
+<testcase name="Create Project From Template Create Project From Template with Valid Input and Template ID" classname="[chromium] › graphql/project/mutations.spec.js › Create Project From Template › Create Project From Template with Valid Input and Template ID" time="0.075">
+</testcase>
+<testcase name="Create Project From Template Create Project From Template with Empty Input and Template ID" classname="[chromium] › graphql/project/mutations.spec.js › Create Project From Template › Create Project From Template with Empty Input and Template ID" time="0.024">
+</testcase>
+<testcase name="Create Project From Template Create Project From Template with Valid Input and Invalid Template ID" classname="[chromium] › graphql/project/mutations.spec.js › Create Project From Template › Create Project From Template with Valid Input and Invalid Template ID" time="0">
+</testcase>
+<testcase name="Create Project From Template Create Project From Template with Valid Input and Empty Template ID" classname="[chromium] › graphql/project/mutations.spec.js › Create Project From Template › Create Project From Template with Valid Input and Empty Template ID" time="0.017">
+</testcase>
+<testcase name="Update Project Update Project with Valid Inputs" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Valid Inputs" time="0.052">
+</testcase>
+<testcase name="Update Project Update Project with Invalid Project Information" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Invalid Project Information" time="0.055">
+</testcase>
+<testcase name="Update Project Update Project with Empty Project Information" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Empty Project Information" time="0.063">
+</testcase>
+<testcase name="Update Project Update Project with Invalid Global Variables" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Invalid Global Variables" time="0.199">
+</testcase>
+<testcase name="Update Project Update Project with Empty Global Variables" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Empty Global Variables" time="0.018">
+</testcase>
+<testcase name="Update Project Update Project with Invalid Pages" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Invalid Pages" time="0.027">
+</testcase>
+<testcase name="Update Project Update Project with Empty Pages" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Empty Pages" time="0.011">
+</testcase>
+<testcase name="Update Project Update Project with Malformed Input Block Data" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Malformed Input Block Data" time="0.001">
+</testcase>
+<testcase name="Update Project Update Project with Invalid Model &amp; Datasets Input" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Invalid Model &amp; Datasets Input" time="0.034">
+</testcase>
+<testcase name="Update Project Update Project with Empty Model &amp; Datasets Input" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Empty Model &amp; Datasets Input" time="0.01">
+</testcase>
+<testcase name="Update Project Update Project with Invalid Test Information Input Data" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Invalid Test Information Input Data" time="0.026">
+</testcase>
+<testcase name="Update Project Update Project with Empty Test Information Input Data" classname="[chromium] › graphql/project/mutations.spec.js › Update Project › Update Project with Empty Test Information Input Data" time="0.015">
+</testcase>
+<testcase name="Delete Project Delete Project with Valid Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Delete Project › Delete Project with Valid Project ID" time="0.043">
+</testcase>
+<testcase name="Delete Project Delete Project with Invalid Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Delete Project › Delete Project with Invalid Project ID" time="0.019">
+</testcase>
+<testcase name="Delete Project Delete Project with Empty Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Delete Project › Delete Project with Empty Project ID" time="0.021">
+</testcase>
+<testcase name="Clone Project Clone Project with Valid Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Clone Project › Clone Project with Valid Project ID" time="0.267">
+</testcase>
+<testcase name="Clone Project Clone Project with Invalid Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Clone Project › Clone Project with Invalid Project ID" time="0.031">
+</testcase>
+<testcase name="Clone Project Clone Project with Empty Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Clone Project › Clone Project with Empty Project ID" time="0.009">
+</testcase>
+<testcase name="Generate Report Generate Report with Valid Inputs" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Valid Inputs" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Generate Report Generate Report when Report Generation In Progress" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report when Report Generation In Progress" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Generate Report Generate Report with Invalid Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Invalid Project ID" time="0.033">
+</testcase>
+<testcase name="Generate Report Generate Report with Empty Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Empty Project ID" time="0.014">
+</testcase>
+<testcase name="Generate Report Generate Report with Invalid Algorithms" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Invalid Algorithms" time="0.28">
+</testcase>
+<testcase name="Generate Report Generate Report with Empty Algorithm" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Empty Algorithm" time="0.091">
+</testcase>
+<testcase name="Generate Report Generate Report with Invalid Model and Datasets" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Invalid Model and Datasets" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Generate Report Generate Report with Empty Model and Datasets" classname="[chromium] › graphql/project/mutations.spec.js › Generate Report › Generate Report with Empty Model and Datasets" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Valid Project ID &amp; With Report Generation" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Valid Project ID &amp; With Report Generation" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Invalid Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Invalid Project ID" time="0.076">
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Empty Project ID" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Empty Project ID" time="0.045">
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Invalid Algorithm" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Invalid Algorithm" time="0.056">
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Empty Algorithm" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Empty Algorithm" time="0.051">
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with No Report" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with No Report" time="0.051">
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Generating Report" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Generating Report" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Cancel Test Run Cancel Test Run with Pending Test" classname="[chromium] › graphql/project/mutations.spec.js › Cancel Test Run › Cancel Test Run with Pending Test" time="0.027">
+</testcase>
+<testcase name="Save Project As Template Valid Inputs" classname="[chromium] › graphql/project/mutations.spec.js › Save Project As Template › Valid Inputs" time="0.054">
+</testcase>
+<testcase name="Save Project As Template Invalid Inputs" classname="[chromium] › graphql/project/mutations.spec.js › Save Project As Template › Invalid Inputs" time="0.027">
+</testcase>
+<testcase name="Save Project As Template Empty Inputs" classname="[chromium] › graphql/project/mutations.spec.js › Save Project As Template › Empty Inputs" time="0.017">
+</testcase>
+</testsuite>
+<testsuite name="graphql/project/queries.spec.js" timestamp="1685699740126" hostname="" tests="8" failures="1" skipped="1" time="0.739" errors="0">
+<testcase name="Get Projects Get Projects" classname="[chromium] › graphql/project/queries.spec.js › Get Projects › Get Projects" time="0.372">
+<failure message="queries.spec.js:34:3 Get Projects" type="FAILURE">
+<![CDATA[  [chromium] › graphql/project/queries.spec.js:34:3 › Get Projects › Get Projects ==================
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Template 3"
+    Received: "Project 301"
+
+      45 |
+      46 |     // Assert Response
+    > 47 |     expect(projectInfo.name).toBe(projectInfoObj[0].projectInfo.name)
+         |                              ^
+      48 |     expect(projectInfo.description).toBe(projectInfoObj[0].projectInfo.description)
+      49 |     expect(projectInfo.reportTitle).toBe(projectInfoObj[0].projectInfo.reportTitle)
+      50 |     expect(projectInfo.company).toBe(projectInfoObj[0].projectInfo.company)
+
+        at /home/benflop/GitHub/frontend-testing/tests/graphql/project/queries.spec.js:47:30
+]]>
+</failure>
+</testcase>
+<testcase name="Get Projects Get Project By Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Projects › Get Project By Project ID" time="0.049">
+</testcase>
+<testcase name="Get Projects Get Project By Invalid Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Projects › Get Project By Invalid Project ID" time="0.223">
+</testcase>
+<testcase name="Get Projects Get Project By Empty Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Projects › Get Project By Empty Project ID" time="0.026">
+</testcase>
+<testcase name="Get Reports Get Report By Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Reports › Get Report By Project ID" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Get Reports Get Report By Invalid Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Reports › Get Report By Invalid Project ID" time="0.031">
+</testcase>
+<testcase name="Get Reports Get Report By Empty Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Reports › Get Report By Empty Project ID" time="0.012">
+</testcase>
+<testcase name="Get Reports Get Non-Generated Report with Valid Project ID" classname="[chromium] › graphql/project/queries.spec.js › Get Reports › Get Non-Generated Report with Valid Project ID" time="0.026">
+</testcase>
+</testsuite>
+<testsuite name="graphql/project-template/mutations.spec.js" timestamp="1685699740126" hostname="" tests="23" failures="0" skipped="0" time="0.769" errors="0">
+<testcase name="Create Project Template Create Project Template with Valid Inputs" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Valid Inputs" time="0.072">
+</testcase>
+<testcase name="Create Project Template Create Project Template with Invalid Project Information" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Invalid Project Information" time="0.055">
+</testcase>
+<testcase name="Create Project Template Create Project Template with Empty Project Information" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Empty Project Information" time="0.013">
+</testcase>
+<testcase name="Create Project Template Create Project Template with Invalid Global Variable" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Invalid Global Variable" time="0.034">
+</testcase>
+<testcase name="Create Project Template Create Project Template with Empty Global Variable" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Empty Global Variable" time="0.015">
+</testcase>
+<testcase name="Create Project Template Create Project Template with Invalid Pages" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Invalid Pages" time="0.072">
+</testcase>
+<testcase name="Create Project Template Create Project Template with Empty Pages" classname="[chromium] › graphql/project-template/mutations.spec.js › Create Project Template › Create Project Template with Empty Pages" time="0.027">
+</testcase>
+<testcase name="Clone Project Template Clone Project Template by Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Clone Project Template › Clone Project Template by Project Template ID" time="0.051">
+</testcase>
+<testcase name="Clone Project Template Clone Project Template by Invalid Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Clone Project Template › Clone Project Template by Invalid Project Template ID" time="0.027">
+</testcase>
+<testcase name="Clone Project Template Clone Project Template by Empty Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Clone Project Template › Clone Project Template by Empty Project Template ID" time="0.017">
+</testcase>
+<testcase name="Delete Project Template Delete Project Template by Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Delete Project Template › Delete Project Template by Project Template ID" time="0.022">
+</testcase>
+<testcase name="Delete Project Template Delete Project Template by Invalid Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Delete Project Template › Delete Project Template by Invalid Project Template ID" time="0.041">
+</testcase>
+<testcase name="Delete Project Template Delete Project Template by Empty Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Delete Project Template › Delete Project Template by Empty Project Template ID" time="0.012">
+</testcase>
+<testcase name="Update Project Template Update Project Template by Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template by Project Template ID" time="0.032">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Invalid Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Invalid Project Template ID" time="0.039">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Empty Project Template ID" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Empty Project Template ID" time="0.019">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Valid Inputs" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Valid Inputs" time="0.019">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Invalid Project Information" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Invalid Project Information" time="0.025">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Empty Project Information" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Empty Project Information" time="0.012">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Invalid Global Variables" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Invalid Global Variables" time="0.03">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Empty Global Variables" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Empty Global Variables" time="0.013">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Invalid Pages" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Invalid Pages" time="0.049">
+</testcase>
+<testcase name="Update Project Template Update Project Template with Empty Pages" classname="[chromium] › graphql/project-template/mutations.spec.js › Update Project Template › Update Project Template with Empty Pages" time="0.073">
+</testcase>
+</testsuite>
+<testsuite name="graphql/project-template/queries.spec.js" timestamp="1685699740126" hostname="" tests="4" failures="0" skipped="0" time="0.309" errors="0">
+<testcase name="Get Project Template Get Project Templates" classname="[chromium] › graphql/project-template/queries.spec.js › Get Project Template › Get Project Templates" time="0.12">
+</testcase>
+<testcase name="Get Project Template Get Project Template by Project Template Id" classname="[chromium] › graphql/project-template/queries.spec.js › Get Project Template › Get Project Template by Project Template Id" time="0.086">
+</testcase>
+<testcase name="Get Project Template Get Project Template by Invalid Project Template Id" classname="[chromium] › graphql/project-template/queries.spec.js › Get Project Template › Get Project Template by Invalid Project Template Id" time="0.09">
+</testcase>
+<testcase name="Get Project Template Get Project Template by Empty Project Template Id" classname="[chromium] › graphql/project-template/queries.spec.js › Get Project Template › Get Project Template by Empty Project Template Id" time="0.013">
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "graphql": "^16.6.0",
+    "mongodb": "^4.13.0",
+    "redis-om": "^0.3.6"
+  }
+}

@@ -1,0 +1,38 @@
+name: Publish Docs
+
+on:
+  push:
+    branches: [ docs ]
+
+  # Run this workflow manually from Actions tab
+  workflow_dispatch:
+
+# Sets permissions of GITHUB_TOKEN
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: ${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+
+  publish-docs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+
+      - name: Checkout docs
+        uses: actions/checkout@v3
+
+      - name: Push to gh-pages
+        run: |
+          git add docs
+          git config user.name "imda-btg"
+          git config user.email "idma-btg@imda.gov.sg"
+          git commit -m "feat(docs) actions publish docs"
+          git push origin gh-pages
