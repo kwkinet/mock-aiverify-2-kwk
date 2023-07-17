@@ -1,15 +1,34 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="16.384179000000003">
-<testsuite name="smoke.spec.js" timestamp="1684202191221" hostname="" tests="1" failures="0" skipped="0" time="15.859" errors="0">
-<testcase name="Smoke Test" classname="[chromium] › smoke.spec.js › Smoke Test" time="15.859">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="56.17985000000149">
+<testsuite name="smoke.spec.js" timestamp="1689583436981" hostname="" tests="1" failures="0" skipped="0" time="55.664" errors="0">
+<testcase name="Smoke Test" classname="[chromium] › smoke.spec.js › Smoke Test" time="55.664">
 <system-out>
 <![CDATA[Add Dataset
 Add Model
 Create A Project
-Configure Global Variables
-Add a page
-Input Blocks & Technical Test
-Report Generation
-Asserting Values
+Select Template
+Select Dataset & Ground Truth
+Select Model
+SHAP ToolBox
+Robustness Toolbox
+Fairness Metrics Toolbox for Classification
+Transparency Process Checklist
+Explainability Process Checklist
+Reproducibility Process Checklist
+Safety Process Checklist
+Robustness Process Checklist
+Fairness Process Checklist
+Accountability Process Checklist
+Human Agency & Oversight Process Checklist
+Security Process Checklist
+Data Governance Process Checklist
+Inclusive Growth, Societal & Environmental Well-being Process Checklist
+Fairness Tree
+Running Tests & Generating Report
+Test Complete & Report Generated
+Clean Up
+Delete Project
+Delete Dataset
+Delete Model
 ]]>
 </system-out>
 </testcase>
